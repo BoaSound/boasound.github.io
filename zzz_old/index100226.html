@@ -259,9 +259,9 @@
     <img src="images/NoisyDoors_Master.png" alt="Noisy Doors">
   </a>
   <h2>Noisy Doors</h2>
-  <button class="demo-btn" type="button" data-audio="demo-noisydoors_demo">▶ Demo</button>
-      <audio id="demo-noisydoors_demo" preload="none">
-        <source src="demos/noisydoors_demo.mp3" type="audio/mpeg">
+  <button class="demo-btn" type="button" data-audio="demo-noisydoors_demo-48khz">▶ Demo</button>
+      <audio id="demo-noisydoors_demo-48khz" preload="none">
+        <source src="demos/noisydoors_demo-48khz.mp3" type="audio/mpeg">
       </audio>
 </div>
 
@@ -312,7 +312,7 @@
       if(currentAudio === audio){
         if(audio.paused){
           audio.play();
-          btn.textContent = '⏸ Demo';
+          btn.textContent = '⏸ Pause Demo';
         } else {
           audio.pause();
           btn.textContent = '▶ Demo';
@@ -329,7 +329,7 @@
       currentBtn = btn;
 
       audio.play().then(() => {
-        btn.textContent = '⏸ Demo';
+        btn.textContent = '⏸ Pause Demo';
       }).catch(() => {
         // Autoplay blocked or file missing
         btn.textContent = '▶ Demo';
