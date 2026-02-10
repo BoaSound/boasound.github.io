@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BoaSound Libraries</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+
+  <style>
+/* ===== CARDS GRID ===== */
+
+.library-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ===== IMAGEN ===== */
+.library-card .image-wrap {
+  height: 340px;              /* CLAVE */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.library-card .image-wrap img {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+/* ===== TITULOS ===== */
+.library-card h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+  h1{
+  font-family: "IM Fell English SC", serif;
+  font-size: 52px;
+  letter-spacing: 0.8px;
+  margin: 0;
+  line-height: 1.05;
+}
+
+p.intro{
+  margin-top: 10px;
+  color: #5f5f5f;
+  font-size: 16px;
+  line-height: 1.45;
+}
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+   .card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  border: 1px solid #e8e2d7;
+
+  /* sombra “premium” */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  /* hover suave */
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.12);
+}
+    .card img {
+      max-width: 100%;
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+    }
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      text-decoration: none;
+      color: #007acc;
+      font-weight: 600;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+.brand{
+  width: 520px;
+  max-width: 92vw;
+  height: auto;
+  display: block;
+  margin: 12px auto 18px;  /* ↑ este último número es el espacio abajo */
+}
+p.contact{
+  margin: 10px auto 0;
+  font-size: 14px;
+}
+
+p.contact a{
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,.14);
+  text-decoration: none;
+  color: #121212;
+  font-weight: 600;
+  background: rgba(255,255,255,.9);
+  transition: transform .18s ease, border-color .18s ease, background .18s ease;
+}
+
+p.contact a:hover{
+  transform: translateY(-1px);
+  border-color: rgba(0,0,0,.24);
+  background: #fff;
+}
+
+  </style>
+</head>
+<body>
+ <header>
+  <img class="brand" src="images/BoaSound.png" alt="BoaSound">
+  <p class="intro">BoaSound is a curated collection of original sound libraries crafted for film, games and audio post.</p>
+<p class="contact">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=santiboadaj@gmail.com" target="_blank" rel="noopener">
+    Contact me
+  </a>
+</p>
+</header>
+  <section class="grid">
+    <div class="card">
+      <img src="images/Werewolf_Master.png" alt="Werewolf">
+      <h2>Werewolf</h2>
+      <a href="https://soundcloud.com/boasound/werewolf_demo">Listen Demo</a>
+    </div>
+       <div class="card">
+      <img src="images/Office_Master.png" alt="Office">
+      <h2>Office</h2>
+      <a href="https://soundcloud.com/boasound/office_demo">Listen Demo</a>
+    </div>
+    <div class="card">
+      <img src="images/Cloth_Master.png" alt="Cloth">
+      <h2>Cloth</h2>
+      <a href="https://soundcloud.com/boasound/cloth_demo">Listen Demo</a>
+    </div>
+    <div class="card">
+      <img src="images/Drawers_Master.png" alt="Drawers">
+      <h2>Drawers</h2>
+      <a href="https://soundcloud.com/boasound/drawers_demo">Listen Demo</a>
+    </div>
+    <div class="card">
+      <img src="images/Cutlery_Master.png" alt="Cutlery">
+      <h2>Cutlery</h2>
+      <a href="https://soundcloud.com/boasound/cutlery_demo">Listen Demo</a>
+    </div>
+<div class="card">
+  <img src="images/Tools_Master.png" alt="Tools">
+  <h2>Tools</h2>
+  <a href="#">Listen Demo</a>
+</div>
+    <div class="card">
+      <img src="images/Household_Master.png" alt="Household">
+      <h2>Household</h2>
+      <a href="https://soundcloud.com/boasound/household_demo">Listen Demo</a>
+    </div>
+    <div class="card">
+      <img src="images/Car Interior_Master.png" alt="Citroën Cactus">
+      <h2>Citroën Cactus</h2>
+      <a href="https://soundcloud.com/boasound/car-citroen-cactus-demo">Listen Demo</a>
+    </div>
+
+
+<div class="card">
+  <img src="images/Lonely Theater_Master.png" alt="Lonely Theater">
+  <h2>Lonely Theater</h2>
+  <a href="https://soundcloud.com/boasound/lonely-theater_demo">Listen Demo</a>
+</div>
+
+<div class="card">
+  <img src="images/NoisyDoors_Master.png" alt="Noisy Doors">
+  <h2>Noisy Doors</h2>
+  <a href="https://soundcloud.com/boasound/noisydoors_demo-48khz">Listen Demo</a>
+</div>
+
+<div class="card">
+  <img src="images/Barefoot_Master.png" alt="Footsteps Barefoot">
+  <h2>Footsteps Barefoot</h2>
+  <a href="https://soundcloud.com/boasound/barefoot_demo">Listen Demo</a>
+</div>
+
+<div class="card">
+  <img src="images/FlipFlop_Master.png" alt="Footsteps FlipFlop">
+  <h2>Footsteps FlipFlop</h2>
+  <a href="https://soundcloud.com/boasound/flipflop-sandals_demo">Listen Demo</a>
+</div>
+  </section>
+</body>
+</html>
