@@ -150,44 +150,6 @@
   cursor:pointer;
 }
 .demo-btn:active{ transform: translateY(1px); }
-
-/* ===== COVER HOVER INFO ===== */
-.cover-link{
-  position: relative;
-}
-
-.cover-overlay{
-  position:absolute;
-  inset:0;
-  display:flex;
-  align-items:flex-end;
-  padding:14px;
-  opacity:0;
-  transition: opacity .18s ease;
-  background: linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,0));
-  pointer-events:none; /* keep existing click behavior */
-}
-
-.cover-info{
-  color:#fff;
-  font-size:14px;
-  line-height:1.35;
-  text-align:left;
-}
-
-.cover-info .tracklist{
-  text-decoration: underline;
-  font-weight: 600;
-}
-
-.cover-link:hover img{
-  filter: blur(2.5px) brightness(.85);
-}
-
-.cover-link:hover .cover-overlay{
-  opacity:1;
-}
-
 </style>
 </head>
 <body>
@@ -202,16 +164,7 @@
     <div class="card">
       <a class="cover-link" href="pdf/Werewolf_Tracklist.pdf" target="_blank" rel="noopener">
         <img src="images/Werewolf_Master.png" alt="Werewolf">
-      
-      <div class="cover-overlay">
-        <div class="cover-info">
-          88 files<br>
-          22 mins<br>
-          UCS<br>
-          <span class="tracklist">Tracklist</span>
-        </div>
-      </div>
-</a>
+      </a>
       <h2>Werewolf</h2>
       <button class="demo-btn" type="button" data-audio="demo-werewolf_demo">▶ Demo</button>
       <audio id="demo-werewolf_demo" preload="none">
@@ -221,16 +174,7 @@
        <div class="card">
       <a class="cover-link" href="pdf/Office_Tracklist.pdf" target="_blank" rel="noopener">
         <img src="images/Office_Master.png" alt="Office">
-      
-      <div class="cover-overlay">
-        <div class="cover-info">
-          138 files<br>
-          106 mins<br>
-          UCS<br>
-          <span class="tracklist">Tracklist</span>
-        </div>
-      </div>
-</a>
+      </a>
       <h2>Office</h2>
       <button class="demo-btn" type="button" data-audio="demo-office_demo">▶ Demo</button>
       <audio id="demo-office_demo" preload="none">
@@ -240,16 +184,7 @@
     <div class="card">
       <a class="cover-link" href="pdf/Cloth_Tracklist.pdf" target="_blank" rel="noopener">
         <img src="images/Cloth_Master.png" alt="Cloth">
-      
-      <div class="cover-overlay">
-        <div class="cover-info">
-          19 files<br>
-          42 mins<br>
-          UCS<br>
-          <span class="tracklist">Tracklist</span>
-        </div>
-      </div>
-</a>
+      </a>
       <h2>Cloth</h2>
       <button class="demo-btn" type="button" data-audio="demo-cloth_demo">▶ Demo</button>
       <audio id="demo-cloth_demo" preload="none">
@@ -259,16 +194,7 @@
     <div class="card">
       <a class="cover-link" href="pdf/Drawers_Tracklist.pdf" target="_blank" rel="noopener">
         <img src="images/Drawers_Master.png" alt="Drawers">
-      
-      <div class="cover-overlay">
-        <div class="cover-info">
-          14 files<br>
-          19 mins<br>
-          UCS<br>
-          <span class="tracklist">Tracklist</span>
-        </div>
-      </div>
-</a>
+      </a>
       <h2>Drawers</h2>
       <button class="demo-btn" type="button" data-audio="demo-drawers_demo">▶ Demo</button>
       <audio id="demo-drawers_demo" preload="none">
@@ -278,16 +204,7 @@
     <div class="card">
       <a class="cover-link" href="pdf/Cutlery_Tracklist.pdf" target="_blank" rel="noopener">
         <img src="images/Cutlery_Master.png" alt="Cutlery">
-      
-      <div class="cover-overlay">
-        <div class="cover-info">
-          144 files<br>
-          46 mins<br>
-          UCS<br>
-          <span class="tracklist">Tracklist</span>
-        </div>
-      </div>
-</a>
+      </a>
       <h2>Cutlery</h2>
       <button class="demo-btn" type="button" data-audio="demo-cutlery_demo">▶ Demo</button>
       <audio id="demo-cutlery_demo" preload="none">
@@ -297,16 +214,7 @@
 <div class="card">
   <a class="cover-link" href="pdf/Tools_Tracklist.pdf" target="_blank" rel="noopener">
     <img src="images/Tools_Master.png" alt="Tools">
-  
-      <div class="cover-overlay">
-        <div class="cover-info">
-          88 files<br>
-          22 mins<br>
-          UCS<br>
-          <span class="tracklist">Tracklist</span>
-        </div>
-      </div>
-</a>
+  </a>
   <h2>Tools</h2>
   <button class="demo-btn" type="button" data-audio="demo-tools_demo">▶ Demo</button>
       <audio id="demo-tools_demo" preload="none">
@@ -316,16 +224,7 @@
     <div class="card">
       <a class="cover-link" href="pdf/Household_Tracklist.pdf" target="_blank" rel="noopener">
         <img src="images/Household_Master.png" alt="Household">
-      
-      <div class="cover-overlay">
-        <div class="cover-info">
-          76 files<br>
-          72 mins<br>
-          UCS<br>
-          <span class="tracklist">Tracklist</span>
-        </div>
-      </div>
-</a>
+      </a>
       <h2>Household</h2>
       <button class="demo-btn" type="button" data-audio="demo-household_demo">▶ Demo</button>
       <audio id="demo-household_demo" preload="none">
@@ -335,16 +234,7 @@
     <div class="card">
       <a class="cover-link" href="pdf/Citroen_Cactus_Tracklist.pdf" target="_blank" rel="noopener">
         <img src="images/Car Interior_Master.png" alt="Citroën Cactus">
-      
-      <div class="cover-overlay">
-        <div class="cover-info">
-          29 files<br>
-          32 mins<br>
-          UCS<br>
-          <span class="tracklist">Tracklist</span>
-        </div>
-      </div>
-</a>
+      </a>
       <h2>Citroën Cactus</h2>
       <button class="demo-btn" type="button" data-audio="demo-car-citroen-cactus-demo">▶ Demo</button>
       <audio id="demo-car-citroen-cactus-demo" preload="none">
@@ -356,16 +246,7 @@
 <div class="card">
   <a class="cover-link" href="pdf/Lonely_Theater_Tracklist.pdf" target="_blank" rel="noopener">
     <img src="images/Lonely Theater_Master.png" alt="Lonely Theater">
-  
-      <div class="cover-overlay">
-        <div class="cover-info">
-          19 files<br>
-          39 mins<br>
-          UCS<br>
-          <span class="tracklist">Tracklist</span>
-        </div>
-      </div>
-</a>
+  </a>
   <h2>Lonely Theater</h2>
   <button class="demo-btn" type="button" data-audio="demo-lonely-theater_demo">▶ Demo</button>
       <audio id="demo-lonely-theater_demo" preload="none">
@@ -376,16 +257,7 @@
 <div class="card">
   <a class="cover-link" href="pdf/Noisy_Doors_Tracklist.pdf" target="_blank" rel="noopener">
     <img src="images/NoisyDoors_Master.png" alt="Noisy Doors">
-  
-      <div class="cover-overlay">
-        <div class="cover-info">
-          44 files<br>
-          34 mins<br>
-          UCS<br>
-          <span class="tracklist">Tracklist</span>
-        </div>
-      </div>
-</a>
+  </a>
   <h2>Noisy Doors</h2>
   <button class="demo-btn" type="button" data-audio="demo-noisydoors_demo">▶ Demo</button>
       <audio id="demo-noisydoors_demo" preload="none">
@@ -396,16 +268,7 @@
 <div class="card">
   <a class="cover-link" href="pdf/Footsteps_Barefoot_Tracklist.pdf" target="_blank" rel="noopener">
     <img src="images/Barefoot_Master.png" alt="Footsteps Barefoot">
-  
-      <div class="cover-overlay">
-        <div class="cover-info">
-          39 files<br>
-          50 mins<br>
-          UCS<br>
-          <span class="tracklist">Tracklist</span>
-        </div>
-      </div>
-</a>
+  </a>
   <h2>Footsteps Barefoot</h2>
   <button class="demo-btn" type="button" data-audio="demo-barefoot_demo">▶ Demo</button>
       <audio id="demo-barefoot_demo" preload="none">
@@ -416,16 +279,7 @@
 <div class="card">
   <a class="cover-link" href="pdf/Footsteps_FlipFlop_Tracklist.pdf" target="_blank" rel="noopener">
     <img src="images/FlipFlop_Master.png" alt="Footsteps FlipFlop">
-  
-      <div class="cover-overlay">
-        <div class="cover-info">
-         38 files<br>
-          50 mins<br>
-          UCS<br>
-          <span class="tracklist">Tracklist</span>
-        </div>
-      </div>
-</a>
+  </a>
   <h2>Footsteps FlipFlop</h2>
   <button class="demo-btn" type="button" data-audio="demo-flipflop-sandals_demo">▶ Demo</button>
       <audio id="demo-flipflop-sandals_demo" preload="none">
